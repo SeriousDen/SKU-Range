@@ -26,7 +26,7 @@
     </licenses>
     <scm>
         <connection>scm:git:git@github.com:SeriousDen/range.git</connection>
-        <url>https://github.com/liferay/liferay-maven-support</url>
+        <url>https://github.com/SeriousDen/range</url>
     </scm>
 
     <properties>
@@ -45,7 +45,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.8.2</version>
             <scope>test</scope>
         </dependency>
 
