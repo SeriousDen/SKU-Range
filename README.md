@@ -1,2 +1,2 @@
-Range
+SKU Range
 =====

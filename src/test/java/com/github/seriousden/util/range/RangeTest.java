@@ -5,7 +5,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 /**
- * @author Denis.B.Demidov | Astrosoft
+ * @author Denis.B.Demidov
  */
 public class RangeTest {
 
@@ -59,7 +59,7 @@ public class RangeTest {
     @Test
     public void testTokenRestriction() {
         myRange.setCaseSense(true);
-        myRange.setBoundRegEx("\\s*\\w{1,3}\\s*");
+        myRange.setBoundRegEx("\\w{1,3}");
         try {
             myRange.setRangesString("123A2-C2, 12A-12E"); // 123A2 is wrong
         } catch (IllegalArgumentException e) {
